@@ -1,8 +1,8 @@
 import Foundation
 
-class FileReader {
+public class FileReader {
 //    static function read which takes a filename and will return contents of the file if it exists
-    static func read(fileName: String) -> String? {
+    public static func read(fileName: String) -> String? {
 //        Gets a singleton FileManager object
         let fileManager = FileManager.default
 //        creates a URL pointing to the current directory
